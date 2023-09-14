@@ -22,6 +22,6 @@ This repository contains fork of HLSDK from FWGS and restored source code for so
 ### Building
 
 0) Examine which build options are available: `./waf --help`
-1) Configure build: `./waf configure -T release --enable`
+1) Configure build: `./waf configure -T release --enable-all-renderers`
 2) Compile: `./waf build`
 3) Install(optional): `./waf install --destdir=/path/to/any/output/directory`

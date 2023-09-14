@@ -22,6 +22,6 @@ This repository contains fork of HLSDK from FWGS and restored source code for so
 ### Building
 
 0) Examine which build options are available: `./waf --help`
-1) Configure build: `./waf configure -T release --enable-all-renderers`
+1) Configure build: `./waf configure -T release --jobs=4 --disable-gl --enable-gles1 --disable-menu-changegame`
 2) Compile: `./waf build`
 3) Install to some folder (for example): `./waf install --destdir=~/games/xash3d`

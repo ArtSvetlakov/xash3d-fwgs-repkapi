@@ -3929,7 +3929,7 @@ void CL_InitStudioAPI( void )
 	pStudioDraw = &gStudioDraw;
 
 	// trying to grab them from client.dll
-	cl_righthand = gEngfuncs.pfnGetCvarPointer( "cl_righthand", 0 );
+	cl_righthand = Cvar_FindVar( "cl_righthand" );
 
 	// Xash will be used internal StudioModelRenderer
 	if( gEngfuncs.pfnGetStudioModelInterface( STUDIO_INTERFACE_VERSION, &pStudioDraw, &gStudioAPI ))

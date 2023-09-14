@@ -8,7 +8,7 @@ Instruction below copied from original repository with some changes (removed all
 
 1) install dependencies:
 `$ sudo apt install libsdl2-dev libfontconfig-dev libfreetype6-dev`
-2) extarct zip-arcive
+2) extarct "xash3d-fwgs-repkapi_aarch64.zip" arcive
 3) place the original half-life assets from its "valve" folder to xash3d/valve folder (except "dll" and "cl_dll", to get these folders you need to compile [Half-Life SDK](https://github.com/FWGS/hlsdk-portable))
 4) Open terminal in "xash3d" folder and run: `$ ./xash3d`
 

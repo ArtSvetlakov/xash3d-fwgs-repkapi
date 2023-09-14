@@ -10,8 +10,8 @@ NOTE: NEVER USE GitHub's ZIP ARCHIVES. GitHub doesn't include external dependenc
 
 ### Prerequisites
 
-To play Half-Life (and Blue Shift/Opposing Force) on Repka Pi you also need to compile [Half-Life SDK](https://github.com/FWGS/hlsdk-portable).
-This repository contains FWGS fork of HLSDK and restored source code for some of the mods. Not all of them, of course.
+On Repka Pi you also need to compile [Half-Life SDK](https://github.com/FWGS/hlsdk-portable).
+This repository contains fork of HLSDK from FWGS and restored source code for some of the mods. Not all of them, of course.
 
 ##### Debian/Ubuntu
 

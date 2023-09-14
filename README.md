@@ -4,12 +4,13 @@ Xash3D FWGS engine fork. I've forked this engine to obtain a "frozen" copy that 
 
 Instruction below copied from original repository with some changes (removed all about windows and x86 platform, also edited link for "git clone" command).
 
-## Install
+## Install aarch64-release
 
 1) install dependencies:
 `$ sudo apt install libsdl2-dev libfontconfig-dev libfreetype6-dev`
 2) extarct zip-arcive
-3) Open terminal in "xash3d" folder and run: `$ ./xash3d`
+3) place the original half-life assets from its "valve" folder to xash3d/valve folder (except "dll" and "cl_dll", to get these folders you need to compile [Half-Life SDK](https://github.com/FWGS/hlsdk-portable))
+4) Open terminal in "xash3d" folder and run: `$ ./xash3d`
 
 ## Build from source instructions
 

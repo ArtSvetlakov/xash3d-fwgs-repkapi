@@ -32,13 +32,13 @@ POSSIBILITY OF SUCH DAMAGE.
 
 import os, sys, inspect
 
-VERSION="2.0.26"
-REVISION="e4a9cc0189c9deacafd38334e0382cc0"
-GIT="ad7b733fc60852f77eff200b79e8b6f9562494d2"
+VERSION="2.0.25"
+REVISION="9dbe1df4d0e92facbc1de0486ec78fed"
+GIT="ee63711f9792665ffd31c3397ab0e770300b938d"
 INSTALL=''
-C1='#D'
-C2='#?'
-C3='#%'
+C1='#n'
+C2='#Y'
+C3='#X'
 cwd = os.getcwd()
 join = os.path.join
 
